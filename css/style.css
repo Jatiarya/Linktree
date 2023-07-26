@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #213555;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+}
+.container .profile img {
+  margin: 1rem auto;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+.container .tittle {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin: 0.5rem auto;
+  font-family: "Times new roman", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+.container .links {
+  display: flex;
+  flex-direction: column;
+}
+.container .links a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  color: #000;
+  margin: 1.2rem auto;
+  padding: 1rem;
+  width: 50%;
+  border-radius: 2px;
+  background-color: #0ff;
+  box-shadow: 5px 5px 10px rgba(000, 000, 000, 0.5);
+}
+.container .links a:hover {
+  background-color: transparent !important;
+  transition: all 0.5s;
+  width: 75%;
+  color: #fff;
+}
+.container .logo-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 25px;
+}
+.container .logo-links {
+  margin: 1rem auto;
+}
+.container .logo-links a:hover {
+  color: #0ff;
+  transition: all 0.5s;
+}
+.container footer {
+  margin: 1rem auto;
+}
+.container footer p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.container footer .made {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.container footer .made a {
+  text-decoration: none;
+  color: #0ff;
+}
+/* Media queries */
+
+/* Mobile view */
+@media screen, (max-width: 768px) {
+  .container .links a {
+    width: 70%;
+  }
+}
